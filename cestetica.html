@@ -15,16 +15,6 @@
 <!-- Custom Fonts -->
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
 </head>
 <body>
 <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
@@ -37,7 +27,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="cv" class="navbar-brand">Dr. Marcelo Rodriguez</a>
+            <a href="cv.html" class="navbar-brand">Dr. Marcelo Rodriguez</a>
         </div>
         <!-- Collection of nav links and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -45,47 +35,17 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="cestetica.html">Cirugía Estética de Nariz</a></li>
                 <li><a href="cfuncional.html">Cirugía Funcional de Nariz</a></li>
-                <li><a href="faq">Preguntas Fecuentes</a></li>
-                <li><a href="cv">Curriculum</a></li>
+                <li><a href="otras.html">Otras Cirugías</a></li>
+                <li><a href="faq.html">Preguntas Fecuentes</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-               <li><a href="#">Login</a></li>
+               <li><a href="turnos.html">Turnos</a></li>
            </ul>
           </div>
     </div>
 </nav>
 
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img class="first-slide" src="img/1.jpg" alt="First slide">
-    </div>
-    <div class="item">
-      <img class="second-slide" src="img/2.jpg" alt="Second slide">
-    </div>
-    <div class="item">
-      <img class="third-slide" src="img/3.jpg" alt="Third slide">
-    </div>
-    </div>
-
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
 <!-- Marketing messaging and featurettes
    ================================================== -->
@@ -98,7 +58,6 @@
     <div class="row">
         <div class="col-lg-12">
           <h1 class="page-header">Cirugía Estética de Nariz
-              <small>Información</small>
           </h1>
             <ol class="breadcrumb">
                 <li><a href="index.html">Inicio</a>
@@ -114,137 +73,141 @@ Por ello la cirugía estética de nariz busca armonizar la nariz con los rasgos 
     </div>
   <!-- /.row -->
 
-<!-- Content Row -->
-  <div class="row">
-      <div class="col-lg-12">
-          <div class="panel-group" id="accordion">
+  <!-- Content Row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel-group" id="expandable">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> Cirugía estética y funcional</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          Una nariz sólo puede ser armónica si funciona bien. Por eso sugerimos que cuando esté indicado un procedimiento funcional y uno estético,
+                          ambos sean realizados en el mismo acto, para que sumen beneficios y faciliten la tarea del cirujano. El Dr. Rodríguez considera que la
+                          implementación de ambas cirugías es más fácil cuando el cirujano que las realiza es un sólo, por lo que ofrece este servicio donde desarrolla
+                          y aplica soluciones personalizadas para problemas combinados.
+                        </div>
+                    </div>
+                </div>
+              <!-- /.panel -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Abordaje abierto vs cerrado</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            El abordaje a cielo abierto es una técnica quirúrgica exhaustiva para resolver trastornos esqueléticos de la pirámide nasal tanto
+                            funcionales como estéticos, con un alto grado de perdurabilidad y previsibilidad de resultados. Utiliza las mismas incisiones que
+                            las técnicas cerradas y "delivery" más una incisión en la base nasal que deja cicatrices practicamente imperceptibles. El abordaje
+                            cerrado y tipo "delivery" evita esa incisión de la base y permite resolver problemas más sencillos. Se elige uno u otro según el caso.
+                          </div>
+                    </div>
+                </div>
+                <!-- /.panel -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Rinoplastias primarias</a>
+                        </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          Llamamos rinoplastias primarias a los casos en que el paciente será operado por primera vez de una cirugía estética nasal y no padece
+                          secuelas de traumatismos. Si bien existe una gran amplitud de variaciones de formas de nariz, y por lo tanto de dificultad para
+                          modificarlas, los tejidos en esta situación suelen ser más amigables para el cirujano y por lo tanto favorecen el alcance de los resultados.
+                        </div>
+                      </div>
+                </div>
+                <!-- /.panel -->
+                  <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Rinoplastias secundarias</a>
+                          </h4>
+                      </div>
+                      <div id="collapseFour" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Son narices que ya han sido intervenidas una o más veces. Alrededor de un 8% de las cirugías deben ir a una segunda operación para resolver
+                            problemas no resueltos en la primera. En estos casos puede ser un mal resultado de una cirugía inicial, una complicación inesperada o sólo
+                            un retoque menor para mejorar un buen resultado previo. Pueden ser muy dificultosas si la cirugía previa fue muy agresiva, o más sencilla
+                            si la cirugía previa fue respetuosa de la anatomía.
+                          </div>
+                      </div>
+                  </div>
+                  <!-- /.panel -->
+                  <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <h4 class="panel-title">
+                              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Rinoplastias funcionales</a>
+                          </h4>
+                      </div>
+                      <div id="collapseFive" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Son las rinoplastias que se llevan a cabo con el fin de mejorar la función nasal secundaria a una deformidad marcada de la pirámide
+                            nasal, como pueden ser las narices postraumáticas, con crecimiento muy asimétrico o como secuela de situaciones patológicas: perforación
+                            septal, etc. Se utilizan abordajes y técnicas aportadas por la cirugía estética para lograr resultados funcionales.
+                          </div>
+                      </div>
+                  </div>
+                <!-- /.panel -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Mentoplastias</a>
+                        </h4>
+                    </div>
+                    <div id="collapseSix" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          La armonía del perfil facial se define en gran medida por las proporciones armónicas entre los tercios inferior, medio y superior.
+La falta de proyección del mentón impide muchas veces una corrección ideal de la nariz. Por ello en ocasiones sugerimos complementar la cirugía estética
+de nariz con la corrección del tercio inferior facial.
+                        </div>
+                    </div>
+                </div>
+              <!-- /.panel -->
               <div class="panel panel-default">
                   <div class="panel-heading">
                       <h4 class="panel-title">
-                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Cirugía estética y funcional</a>
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Presupuestos personalizados</a>
                       </h4>
                   </div>
-                  <div id="collapseOne" class="panel-collapse collapse">
+                  <div id="collapseSeven" class="panel-collapse collapse">
                       <div class="panel-body">
-                        Una nariz sólo puede ser armónica si funciona bien. Por eso sugerimos que cuando esté indicado un procedimiento funcional y uno estético, sean realizados en el mismo acto, para que sumen beneficios y faciliten la tarea del cirujano. Creo que la implementación de ambas cirugías es más fácil cuando el cirujano es uno sólo, por lo que ofrezco este servicio donde desarrollo y aplico soluciones personalizadas para problemas combinados.
+                        Las diferentes alteraciones de la anatomía nasal indican diferentes recursos quirúrgicos y por lo tanto distinto tiempo en quirófano.
+                        También varían los costos de internación según el sanatorio y la duración. Consulte para conocer los costos de "su" cirugía estética.
+El costo de las consultas pre y post serán descontados del total de los honorarios de la cirugía.
                       </div>
                   </div>
               </div>
             <!-- /.panel -->
-              <div class="panel panel-default">
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Abordaje abierto vs cerrado</a>
-                      </h4>
-                  </div>
-                  <div id="collapseTwo" class="panel-collapse collapse">
-                        <div class="panel-body">
-                          El abordaje a cielo abierto es una técnica quirúrgica exhaustiva para resolver trastornos esqueléticos de la pirámide nasal tanto funcionales como estéticos, con un alto grado de perdurabilidad y previsibilidad de resultados.
-Utiliza las mismas incisiones que las técnicas cerradas y "delivery" más una incisión en la base nasal que deja cicatrices practicamente imperceptibles.
-El abordaje cerrado y tipo "delivery" evita esa incisión de la base y permite resolver problemas más sencillos. Elegimos uno u otro según cada caso.
-                        </div>
-                  </div>
-              </div>
-              <!-- /.panel -->
-              <div class="panel panel-default">
-                  <div class="panel-heading">
-                      <h4 class="panel-title">
-                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Rinoplastias primarias</a>
-                      </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse">
-                      <div class="panel-body">
-                        Llamamos rinoplastias primarias a los casos en que el paciente será operado por primera vez de una cirugía estética nasal y en el que no padece secuelas de traumatismos.
-Si bien existe una gran amplitud de variaciones de formas de nariz, y por lo tanto de dificultad para modificarlas, los tejidos en esta situación suelen ser más amigables para el cirujano y por lo tanto favorecen el alcance de los resultados.
-                      </div>
-                    </div>
-              </div>
-              <!-- /.panel -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Rinoplastias secundarias</a>
-                        </h4>
-                    </div>
-                    <div id="collapseFour" class="panel-collapse collapse">
-                        <div class="panel-body">
-                          Son narices que ya han sido intervenidas una o más veces. Alrededor de un 8% de las cirugías deben ir a una segunda operación para solucionar problemas no resueltos en la primera.
-En estos casos puede ser un mal resultado de una cirugía inicial, una complicación inesperada o sólo un retoque menor para mejorar un buen resultado previo.
-Pueden ser muy dificultosas si la cirugía previa fue muy agresiva, o más sencilla si la cirugía previa fue respetuosa de la anatomía.
-                        </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Preparación y postoperatorio</a>
+                    </h4>
+                </div>
+                <div id="collapseEight" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Los cuidados pre y postoperatorios son similares a los de cualquier cirugía nasal. Las técnica de abordaje generan muy poco dolor y
+                      hematoma en la mayoría de los pacientes. El momento ideal para operarse es cuando usted disponga de una semana para recuperarse.
+                      Es conveniente evitar la exposición al sol y a traumatismos durante dos meses.
+                      Los resultados definitivos se veran entre 3 y 12 meses luego de operado según el caso.
                     </div>
                 </div>
-                <!-- /.panel -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Rinoplastias funcionales</a>
-                        </h4>
-                    </div>
-                    <div id="collapseFive" class="panel-collapse collapse">
-                        <div class="panel-body">
-                          Son las rinoplastias que se llevan a cabo con el fin de mejorar la función nasal secundaria a una deformidad marcada de la pirámide nasal, como pueden ser las narices postraumáticas, con crecimiento muy asimétrico o como secuela de situaciones patológicas: perforación septal, etc.
-Se utilizan abordajes y técnicas aportadas por la cirugía estética para lograr resultados funcionales.
-                        </div>
-                    </div>
-                </div>
-                <!-- /.panel -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Mentoplastias</a>
-                                </h4>
-                            </div>
-                            <div id="collapseSix" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  La armonía del perfil facial se define en gran medida por las proporciones armónicas entre los tercios inferior, medio y superior.
-La falta de proyección del mentón impide muchas veces una corrección ideal de la nariz.
-Por ello en ocasiones sugerimos complementar la cirugía estética de nariz con la corrección del tercio inferior facial.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Presupuestos personalizados</a>
-                                </h4>
-                            </div>
-                            <div id="collapseSeven" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  Las diferentes alteraciones de la anatomía nasal indican diferentes recursos quirúrgicos y por lo tanto distinto tiempo en quirófano.
-También varían los costos de internación según el sanatorio y la duración.
-Consulte para conocer los costos de "su" cirugía estética.
-El costo de las consultas pre y post serán descontados del total de honorarios de la cirugía.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel -->
-                        <!-- /.panel -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Preparación y postoperatorio</a>
-                                </h4>
-                            </div>
-                            <div id="collapseEight" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  Los cuidados pre y postoperatorios son similares a los de cualquier cirugía nasal.
-Las técnica de abordaje generan muy poco dolor y hematoma en la mayoría de los pacientes.
-El momento ideal para operarse es cuando usted disponga de una semana para recuperarse.
-Es conveniente evitar la exposición al sol y a traumatismos durante dos meses.
-Los resultados definitivos se veran entre 3 y 12 meses luego de operado según el caso.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel -->
-
-                    </div>
-                    <!-- /.panel-group -->
-                </div>
-                <!-- /.col-lg-12 -->
             </div>
-            <!-- /.row -->
+            <!-- /.panel -->
+          </div>
+          <!-- /.panel-group -->
+      </div>
+      <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+
 
   <hr>
 
